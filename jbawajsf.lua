@@ -2,9 +2,9 @@ if game.CoreGui:FindFirstChild("Jailbreak Auto Rob") then
     game.CoreGui["Jailbreak Auto Rob"]:Destroy()
 end
 
-local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxAvatar/JailWare/main/Fetcher.lua"))()
+local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteH4T-Dev/0982e248-7b12-4ba5-8f96-b9fc811e0cad/main/fetcher.lua"))()
 
-local engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/JerryWasTaken/AutoRob/main/Engine.lua"))()
+local engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteH4T-Dev/0982e248-7b12-4ba5-8f96-b9fc811e0cad/main/engine.lua"))()
 
 local HasherClient = {
     Modules = {
