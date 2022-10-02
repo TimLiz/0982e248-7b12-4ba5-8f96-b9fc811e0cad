@@ -237,7 +237,7 @@ dependencies.modules.player_utils.isPointInTag = function(point, tag)
 end;
 
 function AutoRob.MakeNotification(txt, time)
-    local p = loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxAvatar/JailWare/main/Notify.lua"))()
+    local p = loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteH4T-Dev/0982e248-7b12-4ba5-8f96-b9fc811e0cad/main/notify.lua"))()
 	p:MakeNotification({Name = "JailWare", Content = txt, Time = time})
 end
 
