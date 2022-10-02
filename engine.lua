@@ -1,6 +1,6 @@
 local AutoRob = {}
 
-local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxAvatar/JailWare/main/Fetcher.lua"))()
+local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteH4T-Dev/0982e248-7b12-4ba5-8f96-b9fc811e0cad/main/fetcher.lua"))()
 
 local replicated_storage = game:GetService("ReplicatedStorage");
 local run_service = game:GetService("RunService");
